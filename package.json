@@ -2,7 +2,7 @@
   "name": "infotecs-test-task",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://alexandr-shtyb.github.io/infotecs-test-task/",
+  "homepage": "https://alexandr-shtyb.github.io/infotecs-task-test/",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
