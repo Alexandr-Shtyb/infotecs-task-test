@@ -1,0 +1,30 @@
+.control-buttons {
+	display: flex;
+	align-items: center;
+	padding-top: 100px;
+	padding-left: 50px;
+	margin-bottom: 50px;
+}
+
+.control-buttons__btn {
+	display: inline-block;
+	background-color: #235a8f;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	opacity: .9;
+	transition: opacity .3s ease;
+}
+
+.control-buttons__btn:hover:not(:focus-visible) {
+	opacity: 1;
+	transition: opacity .3s ease;
+}
+
+.control-buttons__btn:not(:last-child) {
+	margin-right: 20px;
+}

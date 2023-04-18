@@ -1,0 +1,66 @@
+.table {
+	width: 50%;
+	min-height: 650px;
+	border: 3px solid black;
+	border-collapse: collapse;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.about-p {
+	margin: 0;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+th {
+	cursor: pointer;
+	background-color: #ccc;
+	font-weight: 700;
+}
+
+th.des-order::after {
+	content: '🠗';
+}
+
+th.asc-order::after {
+	content: '🠕';
+}
+
+.th-tr-look {
+	text-align: center;
+	border: 3px solid #000;
+	padding: 10px;
+}
+
+.name,
+.last-name,
+.eye-color {
+	width: 15%;
+}
+
+.circle {
+	width: 2em;
+	height: 2em;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blue {
+	background-color: #007aa3;
+}
+
+.brown {
+	background-color: #964b00;
+}
+
+.green {
+	background-color: #00cc00;
+}
+
+.red {
+	background-color: #ff2828;
+}
